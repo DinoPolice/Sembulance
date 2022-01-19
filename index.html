@@ -1,0 +1,234 @@
+<html class="ios device-pixel-ratio-3 device-retina device-ios device-ios-15 device-ios-15-2-1 device-ios-gt-14 device-ios-gt-13 device-ios-gt-12 device-ios-gt-11 device-ios-gt-10 device-ios-gt-9 device-ios-gt-8 device-ios-gt-7 device-ios-gt-6 device-iphone-x"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover"><meta name="theme-color" content="#f44336"><meta name="msapplication-TileColor" content="#f44336"><meta name="format-detection" content="telephone=no"><meta name="msapplication-tap-highlight" content="no"><title>Eclipse</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="apple-touch-icon" href="static/icons/apple-touch-icon.png"><link rel="icon" href="static/icons/favicon.png"><link rel="manifest" href="manifest.json"><link rel="apple-touch-startup-image" href="static/img/splash/launch-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"><link rel="apple-touch-startup-image" href="static/img/splash/launch-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"><link rel="apple-touch-startup-image" href="static/img/splash/launch-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"><link rel="apple-touch-startup-image" href="static/img/splash/launch-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"><link rel="apple-touch-startup-image" href="static/img/splash/launch-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"><link rel="apple-touch-startup-image" href="static/img/splash/launch-1668x2224.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"><link rel="apple-touch-startup-image" href="static/img/splash/launch-2048x2732.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"><link href="css/app.css" rel="stylesheet"><style type="text/css">  @-webkit-keyframes rotate {
+    from  { -webkit-transform: rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes rotate {
+    from  { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
+    .dropbox-dropin-btn, .dropbox-dropin-btn:link, .dropbox-dropin-btn:hover {
+      display: inline-block;
+      height: 14px;
+      font-family: "Lucida Grande", "Segoe UI", "Tahoma", "Helvetica Neue", "Helvetica", sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      color: #636363;
+      text-decoration: none;
+      padding: 1px 7px 5px 3px;
+      border: 1px solid #ebebeb;
+      border-radius: 2px;
+      border-bottom-color: #d4d4d4;
+        background: #fcfcfc;
+  background: -moz-linear-gradient(top, #fcfcfc 0%, #f5f5f5 100%);
+  background: -webkit-linear-gradient(top, #fcfcfc 0%, #f5f5f5 100%);
+  background: linear-gradient(to bottom, #fcfcfc 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f5f5f5',GradientType=0);  
+    }
+
+    .dropbox-dropin-default:hover, .dropbox-dropin-error:hover {
+      border-color: #dedede;
+      border-bottom-color: #cacaca;
+        background: #fdfdfd;
+  background: -moz-linear-gradient(top, #fdfdfd 0%, #f5f5f5 100%);
+  background: -webkit-linear-gradient(top, #fdfdfd 0%, #f5f5f5 100%);
+  background: linear-gradient(to bottom, #fdfdfd 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f5f5f5',GradientType=0);  
+    }
+
+    .dropbox-dropin-default:active, .dropbox-dropin-error:active {
+      border-color: #d1d1d1;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    }
+
+    .dropbox-dropin-btn .dropin-btn-status {
+      display: inline-block;
+      width: 15px;
+      height: 14px;
+      vertical-align: bottom;
+      margin: 0 5px 0 2px;
+      background: transparent url('https://www.dropbox.com/static/images/widgets/dbx-saver-status.png') no-repeat;
+      position: relative;
+      top: 2px;
+    }
+
+    .dropbox-dropin-default .dropin-btn-status {
+      background-position: 0px 0px;
+    }
+
+    .dropbox-dropin-progress .dropin-btn-status {
+      width: 18px;
+      margin: 0 4px 0 0;
+      background: url('https://www.dropbox.com/static/images/widgets/dbx-progress.png') no-repeat center center;
+        -webkit-animation-name: rotate;
+        -webkit-animation-duration: 1.7s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+      animation-name: rotate;
+      animation-duration: 1.7s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    .dropbox-dropin-success .dropin-btn-status {
+      background-position: -15px 0px;
+    }
+
+    .dropbox-dropin-disabled {
+      background: #e0e0e0;
+      border: 1px #dadada solid;
+      border-bottom: 1px solid #ccc;
+      box-shadow: none;
+    }
+
+    .dropbox-dropin-disabled .dropin-btn-status {
+      background-position: -30px 0px;
+    }
+
+    .dropbox-dropin-error .dropin-btn-status {
+      background-position: -45px 0px;
+    }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.4) {
+      .dropbox-dropin-btn .dropin-btn-status {
+        background-image: url('https://www.dropbox.com/static/images/widgets/dbx-saver-status-2x.png');
+        background-size: 60px 14px;
+          -webkit-background-size: 60px 14px;
+      }
+
+      .dropbox-dropin-progress .dropin-btn-status {
+        background: url('https://www.dropbox.com/static/images/widgets/dbx-progress-2x.png') no-repeat center center;
+        background-size: 20px 20px;
+          -webkit-background-size: 20px 20px;
+      }
+  }
+
+    .dropbox-saver:hover, .dropbox-chooser:hover {
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .dropbox-chooser, .dropbox-dropin-btn {
+      line-height: 11px !important;
+      text-decoration: none !important;
+      box-sizing: content-box !important;
+        -webkit-box-sizing: content-box !important;
+        -moz-box-sizing: content-box !important;
+    }
+    </style><style id="openskin_stylesheet">.ios .icon:not(.fab-ico):not(.op[]ico-colored-bkg), .ico-white-bkg {color:#3e3d3e;opacity:1}.md .icon:not(.fab-ico):not(.ico-white-bkg):not(.color-black):not(.actions-button-media>i):not(.welcomeGridIcon .icon), .ico-colored-bkg {color:white;opacity:1}.md .tabBar {background:#3e3d3e!important}#app > div.popup.gradient.emulation-popup.popup-tablet-fullscreen.modal-in {background-color: #3e3d3e}.gradient, .inset.eclipse-header, .eclipse-header {background-color: #3e3d3e}.ios .tab-link:not(.tab-link-active) :not(.fab-ico), .ios .tab-link:not(.tab-link-active) :not(.fab-ico) > i {color:#929292;}.ios .tab-link-active > span {color:#3e3d3e;}.md .color-theme-red .toggle input[type=checkbox]:checked+.toggle-icon:after {background:#3e3d3e;}.md .color-theme-red .toggle input[type=checkbox]:checked+.toggle-icon {background:rgba(62,61,62,0.5);}.ios .toggle input[type=checkbox]:checked+.toggle-icon {background:#3e3d3e;}.fabCircle {color:white;background:#3e3d3e!important}.item-media .icon {color:#737373!important}.tint, .ios .color-theme-red a:not(.item-link, .swipeout-delete, .swipeout-close), .ios .actions-button, .ios a:not(.item-link, .swipeout-delete, .swipeout-close), .tint-colored-text, .back > span, .back > div, .ios .searchbar-disable-button, .ios .color-theme-red .searchbar-disable-button {color:#3e3d3e;}.md .navbar-inner, .md .navbar .title-large, .md .statusbar, .md .navbar .title {background:#3e3d3e}.toolbar {background:#3e3d3e!important}.button.color-red, .active {background:#3e3d3e!important}</style><style type="text/css">.eruda-search-highlight-block{display:inline}.eruda-search-highlight-block .eruda-keyword{background:#fffbe5;color:#5c5c00}</style><style type="text/css">@font-face{font-family:eruda-icon;src:url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff')}[class*=' eruda-icon-'],[class^='eruda-icon-']{font-family:eruda-icon!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.eruda-icon-arrow-left:before{content:'\f101'}.eruda-icon-arrow-right:before{content:'\f102'}.eruda-icon-caret-down:before{content:'\f103'}.eruda-icon-caret-right:before{content:'\f104'}.eruda-icon-clear:before{content:'\f105'}.eruda-icon-compress:before{content:'\f106'}.eruda-icon-delete:before{content:'\f107'}.eruda-icon-error:before{content:'\f108'}.eruda-icon-expand:before{content:'\f109'}.eruda-icon-eye:before{content:'\f10a'}.eruda-icon-play:before{content:'\f10b'}.eruda-icon-refresh:before{content:'\f10c'}.eruda-icon-reset:before{content:'\f10d'}.eruda-icon-search:before{content:'\f10e'}.eruda-icon-select:before{content:'\f10f'}.eruda-icon-tool:before{content:'\f110'}.eruda-icon-warn:before{content:'\f111'}</style></head><body class="color-theme-red"><input id="backupUpload" accept=".igba, .eclipse" type="file" style="display: none;"><audio id="silent"><source src="static/silent.mp3" type="audio/mpeg"></audio><div id="app" class="framework7-root"><div class="statusbar"></div><a href="/setup/" class="setup-button-eclipse" style="display: none;"></a><div class="view view-main view-init safe-areas" data-url="/"><div class="navbar"><div class="navbar-inner navbar-current navbar-inner-large">
+				<div class="left">
+					<a href="/settings/" class="link icon-only">
+						<i class="icon f7-icons if-not-md">settings</i>
+						
+					</a>
+				</div>
+				<div class="title sliding" style="left: 29.5px;">Library</div>
+				<div class="right">
+					
+					<a href="#" data-popover=".sort-library-popover" class="link icon-only popover-open">
+						<i class="icon f7-icons if-not-md">sort</i>
+						
+					</a>
+					
+					<a href="#" data-popover=".add-game-popover" class="link icon-only popover-open">
+						<i class="icon f7-icons if-not-md">add</i>
+						
+					</a>
+				</div>
+				<div class="title-large">
+					<div class="title-large-text">Library</div>
+				</div>
+				
+				
+				<div class="subnavbar">
+					<form class="searchbar searchbar-init" data-search-container=".games" data-search-in=".name">
+						<div class="searchbar-inner">
+							<div class="searchbar-input-wrap">
+								<input type="search" placeholder="Search Games">
+								<i class="searchbar-icon"></i>
+								<span class="input-clear-button"></span>
+							</div>
+							<span class="searchbar-disable-button">Cancel</span>
+						</div>
+					</form>
+				</div>
+				
+			</div></div><div class="page page-current page-with-navbar-large page-with-subnavbar" data-name="home">
+		
+		<input id="romUpload" accept=".nes, .smc, .sfc, .gb, .gbc, .gba, .sms, .gg" type="file">
+		<a href="#" id="downloadROMLink" class="external"></a>
+		
+		
+		<div class="popover add-game-popover">
+			<div class="popover-inner">
+				<div class="actions-label">Load Game</div>
+				<div class="list">
+					<ul>
+						<li><a class="list-button item-link popover-close">Files</a></li>
+					</ul>
+				</div>
+				
+				<div class="actions-label">Add Game</div>
+				<div class="list">
+					<ul>
+						<li><a class="list-button item-link popover-close">URL</a></li>
+						<li><a class="list-button item-link popover-close">Google Drive</a></li>
+						<li><a class="list-button item-link popover-close">Dropbox</a></li>
+						<li><a class="list-button item-link popover-close" href="/game-hub/">Homebrew</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="popover sort-library-popover">
+			<div class="popover-inner">
+				<div class="actions-label">Sort by</div>
+				<div class="list">
+					<ul>
+						<li><a class="list-button item-link popover-close">Name</a></li>
+						<li><a class="list-button item-link popover-close">System</a></li>
+						<li><a class="list-button item-link popover-close">Recently
+								Added</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="page-content">
+			<div class="searchbar-backdrop"></div>
+			
+			
+			<div class="games-message">
+				<div class="games-message-content">
+					<h1>Empty Library</h1>
+					<p>You have no games in your library. Press + to add a game.</p>
+				</div>
+			</div>
+			
+			
+			
+			
+			<div style="display: inherit;" class="list cards-list lr-padding">
+
+				
+				<ul class="row no-gap games">
+					
+					<li class="col-50 tablet-25 desktop-20"></li>
+					<li class="col-50 tablet-25 desktop-20"></li>
+					<li class="col-50 tablet-25 desktop-20"></li>
+				</ul>
+				
+			</div>
+			<div class="searchbar-not-found full-view">
+				<div class="games-message">
+					<div class="games-message-content">
+						<h1>No Results</h1>
+						<p>That search query didn't return any games. Either you typed it wrong, or you don't have that
+							game in your library.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div></div></div><script src="https://apis.google.com/js/api.js" async=""></script><script src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="1ke24c07wzux7bn"></script><script src="static/js/md.js" async=""></script><script src="static/js/cores/sms/min/jssms.min.js" async=""></script><script src="static/js/cores/sms/min/jquery.slim.min.js" async=""></script><script src="static/js/cores/sms/lib/escodegen.browser.js" async=""></script><script src="js/app.js"></script></body><div class="__chii-hide__" style="display: none; position: absolute; pointer-events: none;"><div style="position: absolute; box-sizing: border-box; z-index: 100000;"></div><div style="position: absolute; box-sizing: border-box; z-index: 100000;"></div><div style="position: absolute; box-sizing: border-box; z-index: 100000;"></div><div style="position: absolute; box-sizing: border-box; z-index: 100000;"></div><div style="position: absolute; box-sizing: border-box; z-index: 100000; height: 25px; line-height: 25px; background-color: rgb(255, 255, 255); color: rgb(34, 34, 34); font-size: 12px; padding: 0px 5px; white-space: nowrap; overflow-x: hidden; box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 1px 4px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;"></div></div><div style="color: initial; color-scheme: initial; font-family: initial; font-feature-settings: initial; font-optical-sizing: initial; font-size: initial; font-stretch: initial; font-style: initial; font-synthesis: initial; font-variant-alternates: initial; font-variant-caps: initial; font-variant-east-asian: initial; font-variant-ligatures: initial; font-variant-numeric: initial; font-variant-position: initial; font-variation-settings: initial; font-weight: initial; text-orientation: initial; text-rendering: initial; writing-mode: initial; -webkit-font-kerning: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-text-size-adjust: initial; -webkit-text-zoom: initial; letter-spacing: initial; border-collapse: initial; caption-side: initial; caret-color: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; cursor: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; glyph-orientation-horizontal: initial; glyph-orientation-vertical: initial; hanging-punctuation: initial; image-orientation: initial; image-rendering: initial; kerning: initial; line-break: initial; line-height: initial; list-style: initial; marker-end: initial; marker-mid: initial; marker-start: initial; orphans: initial; pointer-events: initial; quotes: initial; resize: initial; shape-rendering: initial; speak-as: initial; stroke: initial; stroke-color: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; text-align: initial; text-anchor: initial; text-decoration-skip: initial; text-decoration-thickness: initial; text-indent: initial; text-shadow: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; visibility: initial; white-space: initial; widows: initial; word-break: initial; word-spacing: initial; word-wrap: initial; -apple-color-filter: initial; -apple-trailing-word: initial; -internal-text-autosizing-status: initial; border-spacing: initial; -webkit-box-direction: initial; -webkit-cursor-visibility: initial; -webkit-hyphenate-character: initial; -webkit-hyphenate-limit-after: initial; -webkit-hyphenate-limit-before: initial; -webkit-hyphenate-limit-lines: initial; -webkit-hyphens: initial; -webkit-line-align: initial; -webkit-line-box-contain: initial; -webkit-line-grid: initial; -webkit-line-snap: initial; -webkit-nbsp-mode: initial; -webkit-overflow-scrolling: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-emphasis-color: initial; -webkit-text-emphasis-position: initial; -webkit-text-emphasis-style: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke-color: initial; -webkit-text-stroke-width: initial; -webkit-touch-callout: initial; -webkit-user-modify: initial; -webkit-user-select: initial;" class=""></div></html>
